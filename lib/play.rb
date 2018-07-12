@@ -38,7 +38,7 @@ end
 # Define your play method below
 def play(board)
   number_of_plays = 0
-  until number_of_plays ==10
+  until number_of_plays ==9
     turn(board)
     number_of_plays += 1
     puts "number of plays #{number_of_plays}"
