@@ -42,6 +42,6 @@ def play(board)
     turn(board)
     number_of_plays += 1
     puts "number of plays #{number_of_plays}"
-  break
+  end
     puts "game over"
 end
