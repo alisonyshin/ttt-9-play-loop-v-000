@@ -39,9 +39,9 @@ end
 def play(board)
   number_of_plays = 0
   until number_of_plays ==10
+    turn(board)
     number_of_plays += 1
     puts "number of plays #{number_of_plays}"
-    turn(board)
   end
     puts "game over"
 end
