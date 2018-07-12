@@ -43,4 +43,5 @@ def play(board)
     puts "number of plays #{number_of_plays}"
     turn(board)
   end
+    puts "game over"
 end
